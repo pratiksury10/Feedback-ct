@@ -1,0 +1,7 @@
+how people are revieving it, i need to analyze sentiment analysis of review content
+use library as (syuzhet)
+library(syuzhet)...........Extracts sentiment and sentiment-derived plot arcs from text using a variety of sentiment dictionaries
+
+library(readr)
+Amazon_reivew_export <- read_csv("Amazon-reivew-export.csv")
+View(Amazon_reivew_export)
